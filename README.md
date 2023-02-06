@@ -13,7 +13,7 @@ Please contact us if you would like to contribute to this project.
 
 ## Install python packages
 
-This project has been tested on Python 3.7, Python 3.8 using Spyder 5.4.2. The packages and recommended versions are found in the requirements.txt . If those packages conflict with your installation, consider using this project in it's own environment. 
+This project has been tested on Python 3.7, Python 3.8 using Spyder 5.4.2. The packages and recommended versions are found in the requirements.txt . If those packages conflict with your installation, consider using this project in its own environment. 
 
 Install requirements:
 
