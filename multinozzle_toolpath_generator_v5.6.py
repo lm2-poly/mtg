@@ -141,7 +141,6 @@ from datetime import datetime as dt
 import datetime
 from tqdm import tqdm
 import json
-import multiprocessing
 
 # Orbingol module
 from geomdl import *
@@ -161,8 +160,7 @@ FANUC_TRAVEL_CLEARANCE = 100
 
 # Multinozzle configuration
 MLTNZL_CONFIG_MEK_SN123 = {'name':'MEK SN 01-03','nb':26, 'd':0.250, 's':1.000}
-MLTNZL_CONFIG_RAPH = {'name':'FFF Raph 4x 0.4','nb':4, 'd':0.400, 's':0.300}
-MLTNZL_CONFIGS = [MLTNZL_CONFIG_MEK_SN123, MLTNZL_CONFIG_RAPH]
+MLTNZL_CONFIGS = [MLTNZL_CONFIG_MEK_SN123]
 MLTNZL_CONFIG_LIST = [i['name'] for i in MLTNZL_CONFIGS]
 MLTNZL_CONFIG_LIST.append(0)
 MLTNZL_CONFIG = ''
@@ -183,12 +181,7 @@ red_color = (200/255,0,0)
 drak_grey_color = (60/255,60/255,60/255)
 MAT_INK6040 = {'name':'Ink 60/40', 'rho':0.905, 'color':white_color, 'w':0, 'f':0, 'n':0.467858145410312, 'k':603.94862937638, 'eta_inf':0, 'eta_0':0, 'tau_0':0, 'lambda':0, 'a':0}
 MAT_ABRA012C = {'name':'Abra 0:12C', 'rho':1.272, 'color':drak_grey_color, 'w':12, 'f':24, 'n':0.5392, 'k':1351.06, 'eta_inf':0, 'eta_0':0, 'tau_0':0, 'lambda':0, 'a':0}
-# MAT_ABRA510 = {'name':'Abra 5:10', 'rho':0.973, 'color':drak_grey_color, 'w':, 'f':, 'n':, 'k':, 'eta_inf':, 'eta_0':, 'tau_0':, 'lambda':, 'a':}
-# MAT_ABRA108 = {'name':'Abra 10:8', 'rho':0.837, 'color':drak_grey_color, 'w':, 'f':, 'n':, 'k':, 'eta_inf':, 'eta_0':, 'tau_0':, 'lambda':, 'a':}
-# MAT_ABRABENCH = {'name':'Abra benchmark', 'rho':0.500, 'color':drak_grey_color, 'w':, 'f':, 'n':, 'k':, 'eta_inf':, 'eta_0':, 'tau_0':, 'lambda':, 'a':}
 MAT_EPON014 = {'name':'EPON 0:14', 'rho':1.2137, 'color':red_color, 'w':0, 'f':0, 'n':0.618, 'k':582.45, 'eta_inf':0, 'eta_0':0, 'tau_0':0, 'lambda':0, 'a':0}
-# MAT_EPON512 = {'name':'EPON 5:12', 'rho':0.9670, 'color':red_color, 'w':, 'f':, 'n':, 'k':, 'eta_inf':, 'eta_0':, 'tau_0':, 'lambda':, 'a':}
-# MAT_EPON1010 = {'name':'EPON 10:10', 'rho':0.8141, 'color':red_color, 'w':, 'f':, 'n':, 'k':, 'eta_inf':, 'eta_0':, 'tau_0':, 'lambda':, 'a':}
 MATERIALS = [MAT_INK6040, MAT_ABRA012C, MAT_EPON014] #MAT_ABRA510, MAT_ABRA108, MAT_ABRABENCH, MAT_EPON014, MAT_EPON512, MAT_EPON1010]
 MATERIALS_LIST = [i['name'] for i in MATERIALS]
 MATERIALS_LIST.append(0)
