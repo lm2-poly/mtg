@@ -19,7 +19,11 @@ Install requirements:
 
 $ python3 -m pip install -r requirements.txt
 
-It is mandatory to install the geomdl module for the non-planar toolpath generation
+It is mandatory to install the following packages for important fonctionalities:
+* geomdl module for the non-planar toolpath generation
+* mayavi for the 3D visualization
+* robodk api for robot simulation integration
+* json for all data preferences save files
 
 # Context of the work
 
