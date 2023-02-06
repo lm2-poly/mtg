@@ -78,33 +78,37 @@ Under the first column, you can choose the robot traveling, printing and layer c
 * The speeds will be saved in a Fanuc register in order to quickly change their value in the TPP file from the teach peandant.
 * The multinozzle extrusion voltage is used to send an AO signal of 0-10 VDC to a custom pressure controller used for generating hydraulic pressure inside the multinozzle printhead.
 * The multinozzle configuration represent the geometrical layout of the nozzle arrangement of the multinozzle printhead. You may add your own configuration in the code to choose from here in the future. You need to add your configuration as a dictionary (see examples in the code) inside the list MLTNZL_CONFIGS.
-    
+    ```
     MLTNZL_CONFIGS = [MLTNZL_CONFIG_MEK_SN123, your_config_here]
-    
+    ```
 * Materials were developed within the scope of the FACMO Chair. You may add your own material as a dictionary (see examples in the code) inside the list MATERIALS
-    
+    ```
     MATERIALS = [MAT_INK6040, MAT_ABRA012C, MAT_EPON014, your_new_material_here]
-
+    ```
 Under the second column, some parameters can be modified to obtain a multilevel porosity microscaffold network.
 1) First change the "Thicknesses" parameter to include the limiting thicknesses of each porosity level, separated by a comma. For example :
-    
+    ```
     Thicknesses (mm): 4.0,6.0
-    
+    ```
 This will create 2 porosity level: the first porosity level will be printed from 0 to 4 mm thick and the second process will be printed from 4 to 6 mm.
+
 2) Then, modify the "Nominal pore sizes parameter" to attribute different pore sizes to the levels. Use commas again :
-    
-    Nominal pore sizes (mm): "0.750, 0.184"
-    
+    ```
+    Nominal pore sizes (mm): 0.750, 0.184
+    ```
 This will design the first level with a printed distance between filaments of 750 microns and the second level with a distance of 184 microns.
-3) Then, change the following paramters accordingly, using commas :
-* Layer change bleed 
-* Printing bleed
-* Wall distances
-* Nominal pore sizes
+
+3) Then, change the following parameters accordingly, using commas :
+    ```
+    Layer change bleed
+    Printing bleed
+    Wall distances
+    Nominal pore sizes
+    ```
 
 Under the third column, you may :
 * Choose to set the "Debug mode" to True to generate toolpaths without sending them to RoboDK. Set to False to connect to RoboDK Python API and export the toolpath into the RoboDK simulation environment.
-* Choose to set the "Export expected geometry" to True to export a .vtp polydata object that can be opened with Paraview (https://www.paraview.org/). Paraview let's use visualize scientific data. You may use Paraview to export the geometry as a .x3d object than can be converted to an .STL using Blender.
+* Choose to set the "Export expected geometry" to True to export a .vtp polydata object that can be opened with Paraview (https://www.paraview.org/). Paraview let's use visualize scientific data. You may use Paraview to export the geometry as a .x3d object that can be converted to an .STL using Blender.
 
 ## Robot simulation
 
