@@ -7,6 +7,8 @@ Contacts:
 - Jean-François Chauvette (Author) : chauvettejf@gmail.com
 - Daniel Therriault (supervisor and permanent corresponding author) : daniel.therriault@polymtl.ca
 
+Here is a video that shows what the MTG can achieve : https://youtu.be/GVyqH3ieYt0
+
 Please contact us if you would like to contribute to this project.
 
 ![Graphical abstract](graphicalAbstract.png)
