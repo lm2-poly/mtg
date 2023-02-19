@@ -11,6 +11,8 @@ Here is a video that shows what the MTG can achieve : https://youtu.be/GVyqH3ieY
 
 Please contact us if you would like to contribute to this project.
 
+Please cite our Paper 2 if you use this code. Thank you.
+
 ![Graphical abstract](graphicalAbstract.png)
 
 ## Install python packages
@@ -41,6 +43,8 @@ The generated toolpath is used to manufacture networks of interconnected micron-
 Paper 1 : High-speed multinozzle additive manufacturing and extrusion modeling of large-scale microscaffold networks
 * https://www.sciencedirect.com/science/article/pii/S2214860421004541
 * Explanation of the microscaffold networks geometry and potential of multinozzle printheads.
+* Citation (IEEE):
+>J.-F. Chauvette, D. Brzeski, I. L. Hia, R. D. Farahani, N. Piccirelli, and D. Therriault, “High-speed multinozzle additive manufacturing and extrusion modeling of large-scale microscaffold networks,” Additive Manufacturing, p. 102294, Sep. 2021, doi: 10.1016/j.addma.2021.102294.
 
 Paper 2 : Non-planar multinozzle additive manufacturing of thermoset composite microscaffold networks : 
 * URL comming soon
