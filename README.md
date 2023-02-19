@@ -4,7 +4,7 @@ Non-planar multinozzle toolpath generation for the fabrication of microscaffold 
 This project was developed as an objective of a PhD within the FACMO industrial research Chair at Polytechnique Montreal in the Laboratory for Multi-scale Mechanics.
 
 Contacts:
-- Jean-François Chauvette (Author) : chauvettejf@gmail.com
+- Jean-François Chauvette (author) : chauvettejf@gmail.com
 - Daniel Therriault (supervisor and permanent corresponding author) : daniel.therriault@polymtl.ca
 
 Here is a video that shows what the MTG can achieve : https://youtu.be/GVyqH3ieYt0
