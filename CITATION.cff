@@ -1,0 +1,27 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MTG
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jean-François
+    family-names: Chauvette
+    email: chauvettejf@gmail.com
+    affiliation: 'LM², Polytechnique Montreal'
+  - given-names: Daniel
+    family-names: Therriault
+    email: daniel.therriault@polymtl.ca
+    affiliation: 'LM², Polytechnique Montreal'
+repository-code: 'https://github.com/lm2-poly/mtg'
+abstract: >-
+  Non-planar multinozzle toolpath generation for the
+  fabrication of microscaffold networks using a 6-axis robot
+  arm. This project was developed as an objective of a PhD
+  within the FACMO industrial research Chair at
+  Polytechnique Montreal in the Laboratory for Multi-scale
+  Mechanics.
+license: MIT
