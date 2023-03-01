@@ -47,8 +47,10 @@ Paper 1 : High-speed multinozzle additive manufacturing and extrusion modeling o
 >J.-F. Chauvette, D. Brzeski, I. L. Hia, R. D. Farahani, N. Piccirelli, and D. Therriault, “High-speed multinozzle additive manufacturing and extrusion modeling of large-scale microscaffold networks,” Additive Manufacturing, p. 102294, Sep. 2021, doi: 10.1016/j.addma.2021.102294.
 
 Paper 2 : Non-planar multinozzle additive manufacturing of thermoset composite microscaffold networks : 
-* URL comming soon
+* https://www.sciencedirect.com/science/article/pii/S1359836823001300
 * Explanation of the MTG concepts, development and demonstrations of potential with print examples
+* Citation (IEEE):
+>J.-F. Chauvette, I. L. Hia, R. D. Farahani, R. Plante, N. Piccirelli, and D. Therriault, “Non-planar multinozzle additive manufacturing of thermoset composite microscaffold networks,” Composites Part B: Engineering, p. 110627, Feb. 2023, doi: 10.1016/j.compositesb.2023.110627.
 
 # How to use
 
