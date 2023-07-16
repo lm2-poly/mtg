@@ -52,6 +52,12 @@ Paper 2 : Non-planar multinozzle additive manufacturing of thermoset composite m
 * Citation (IEEE):
 >J.-F. Chauvette, I. L. Hia, R. D. Farahani, R. Plante, N. Piccirelli, and D. Therriault, “Non-planar multinozzle additive manufacturing of thermoset composite microscaffold networks,” Composites Part B: Engineering, p. 110627, Feb. 2023, doi: 10.1016/j.compositesb.2023.110627.
 
+Paper 3 : Non-planar multiprocess additive manufacturing of multifunctional composites : 
+* https://onlinelibrary.wiley.com/doi/10.1002/admt.202300399
+* Exploitation of the MTG, implementation for manufacturing of aicraft component demonstrator
+* Citation (IEEE):
+> J.-F. Chauvette et al., “Non‐Planar Multiprocess Additive Manufacturing of Multifunctional Composites,” Adv Materials Technologies, p. 2300399, Jun. 2023, doi: 10.1002/admt.202300399.
+
 # How to use
 
 ## Substrate scanning & surface fitting
